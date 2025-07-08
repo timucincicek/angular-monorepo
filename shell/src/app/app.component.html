@@ -1,0 +1,24 @@
+<div class="space-x-2 mb-4">
+    <myorg-button
+      label="Go to Dashboard"
+      (clicked)="go('dashboard')"
+    ></myorg-button>
+  
+    <myorg-button
+      label="Go to Health Dashboard"
+      (clicked)="go('health-dashboard')"
+    ></myorg-button>
+  
+    <myorg-button
+      label="Go to Feeding Dashboard"
+      (clicked)="go('feeding-dashboard')"
+    ></myorg-button>
+  
+    <myorg-button
+      label="Go to Other Dashboard"
+      (clicked)="go('other-dashboard')"
+    ></myorg-button>
+  </div>
+  
+  <router-outlet></router-outlet>
+  
