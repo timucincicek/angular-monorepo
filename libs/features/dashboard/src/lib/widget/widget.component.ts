@@ -7,9 +7,9 @@ import { JsonPipe } from '@angular/common';
   standalone: true,
   imports: [CardComponent,JsonPipe],
   template: `
-   <!--  <myorg-card [title]="title">
+     <myorg-card [title]="title">
       <pre class="text-sm">{{ data | json }}</pre>
-    </myorg-card> -->
+    </myorg-card>
   `,
 })
 export class WidgetComponent {
