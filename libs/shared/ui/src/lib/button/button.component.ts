@@ -17,7 +17,7 @@ import { CommonModule } from '@angular/common';
   `,
 })
 export class ButtonComponent {
-  @Input() label = 'Click me and see the effect asd!';
+  @Input() label = 'Click me and see the effect asd1343!';
   @Input() disabled = false;
   @Output() clicked = new EventEmitter<Event>();
   onClick(e: Event) {
