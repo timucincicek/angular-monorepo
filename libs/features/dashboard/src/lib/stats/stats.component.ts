@@ -7,7 +7,7 @@ interface Stat { label: string; value: number; }
 @Component({
   selector: 'myorg-stats',
   standalone: true,
-  imports: [/* CardComponent,NgForOf */],
+  imports: [CardComponent,NgForOf],
   template: `
      <!-- <div class="grid grid-cols-3 gap-4">
       <ng-container *ngFor="let stat of stats">
