@@ -5,11 +5,11 @@ import { JsonPipe } from '@angular/common';
 @Component({
   selector: 'myorg-widget',
   standalone: true,
-  imports: [CardComponent,JsonPipe],
+  imports: [/* CardComponent,JsonPipe */],
   template: `
-    <myorg-card [title]="title">
+   <!--  <myorg-card [title]="title">
       <pre class="text-sm">{{ data | json }}</pre>
-    </myorg-card>
+    </myorg-card> -->
   `,
 })
 export class WidgetComponent {

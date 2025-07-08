@@ -7,15 +7,15 @@ interface Stat { label: string; value: number; }
 @Component({
   selector: 'myorg-stats',
   standalone: true,
-  imports: [CardComponent,NgForOf],
+  imports: [/* CardComponent,NgForOf */],
   template: `
-     <div class="grid grid-cols-3 gap-4">
+     <!-- <div class="grid grid-cols-3 gap-4">
       <ng-container *ngFor="let stat of stats">
         <myorg-card [title]="stat.label">
           <p class="text-2xl font-bold">{{ stat.value }}</p>
         </myorg-card>
       </ng-container>
-    </div>
+    </div> -->
   `,
 })
 export class StatsComponent  {
