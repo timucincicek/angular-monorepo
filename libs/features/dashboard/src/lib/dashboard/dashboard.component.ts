@@ -7,9 +7,9 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'myorg-dashboard',
   standalone: true,
-  imports: [/* CardComponent, WidgetComponent, StatsComponent */],
+  imports: [CardComponent, WidgetComponent, StatsComponent],
   template: `
-<!--    <myorg-card title="Dashboard Overview">
+    <myorg-card title="Dashboard Overview">
       <div class="grid grid-cols-2 gap-4">
         <myorg-widget
           title="Raw Data"
@@ -17,7 +17,7 @@ import { ActivatedRoute } from '@angular/router';
         ></myorg-widget>
         <myorg-stats [stats]="stats"></myorg-stats>
       </div>
-    </myorg-card>   -->
+    </myorg-card> 
   `,
 })
 
