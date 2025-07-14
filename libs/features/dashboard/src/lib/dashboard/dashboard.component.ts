@@ -7,7 +7,7 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'myorg-dashboard',
   standalone: true,
-  imports: [CardComponent, WidgetComponent, StatsComponent],
+  imports: [/* CardComponent, WidgetComponent, StatsComponent */],
   template: `
    <!--  <myorg-card title="Dashboard Overview">
       <div class="grid grid-cols-2 gap-4">
